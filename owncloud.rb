@@ -1,5 +1,5 @@
  class Owncloud < Formula
-  version = "0.0.1"
+  version = "0.0.2"
   desc "the simplest utilitu tool for owncloud"
   homepage "https://github.com/Cj-bc/owncloud"
   url "https://github.com/Cj-bc/owncloud/archive/v"+ version + ".tar.gz"
