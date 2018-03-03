@@ -1,10 +1,10 @@
  class Owncloud < Formula
-  version = "0.0.3"
+  version = "0.0.4"
   desc "the simplest utility tool for owncloud"
   homepage "https://github.com/Cj-bc/owncloud"
   url "https://github.com/Cj-bc/owncloud/archive/v"+ version + ".tar.gz"
   head "https://github.com/Cj-bc/owncloud.git"
-  sha256 "e2a2ee34cda1611a137cafa6cd0edd00c67c642f4ea38ffa6bbcb7c0effb14cc"
+  sha256 "1b7fb4449eec19b3042077600104609e4366a828fbe799494caa9a0b7896ce0f"
 
 
    def install
