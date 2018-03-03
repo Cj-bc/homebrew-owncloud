@@ -12,10 +12,9 @@
      system "mv", "owncloud.sh", "owncloud"
      bin.install "owncloud"
      prefix.install Dir["func"], Dir["text"], ".sourcefiles", "test.sh"
-     prefix.install "docs/config"
   end
 
    test do
-     system prefix+"/test.sh"
+     system prefix/test.sh
   end
 end
