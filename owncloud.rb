@@ -1,10 +1,10 @@
  class Owncloud < Formula
-  version = "0.1.6"
+  version = "0.1.7"
   desc "the simplest utility tool for owncloud"
   homepage "https://github.com/Cj-bc/owncloud"
   url "https://github.com/Cj-bc/owncloud/archive/v"+ version + ".tar.gz"
   head "https://github.com/Cj-bc/owncloud.git"
-  sha256 "72f4fa59a2f15a7a4a11b14636479d345505a5674c0be190d48e064e632a9112"
+  sha256 "1857fd4c947d4f973f2f76ced3c70e0005df6a297d57f7ecdcf5244b80dd60fc"
 
 
    def install
@@ -15,6 +15,6 @@
   end
 
    test do
-     system prefix/test.sh
+     system "`brew --prefix`/owncloud/"+ version +"/test.sh"
   end
 end
