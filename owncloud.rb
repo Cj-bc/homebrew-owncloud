@@ -4,7 +4,7 @@
   homepage "https://github.com/Cj-bc/owncloud"
   url "https://github.com/Cj-bc/owncloud/archive/v"+ version + ".tar.gz"
   head "https://github.com/Cj-bc/owncloud.git"
-  sha256 "1857fd4c947d4f973f2f76ced3c70e0005df6a297d57f7ecdcf5244b80dd60fc"
+  sha256 "7875677bb99786e541608c81f5561f282e28ae4fb561c39dcee005f308972dca"
 
 
    def install
